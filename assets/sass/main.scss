@@ -4,8 +4,8 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url('https://fonts.googleapis.com/css?family=Abel');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url('font-awesome.min.css');
 
 // Breakpoints.
@@ -165,6 +165,7 @@
 	}
 
 	strong, b, h1, h2, h3, h4, h5, h6 {
+		font-family: 'Playfair Display', serif;
 		font-weight: 400;
 		color: #363636;
 	}
@@ -544,8 +545,8 @@
 			span {
 				display: block;
 				position: absolute;
-				background: #222222;
-				color: #ffffff;
+				background: #FFE600;
+				color: #222222;
 				top: -2.75em;
 				font-size: 0.3em;
 				height: 2.25em;
@@ -564,7 +565,7 @@
 					bottom: -0.4em;
 					left: 50%;
 					margin-left: -0.6em;
-					border-top: solid 0.6em #222222;
+					border-top: solid 0.6em #FFE600;
 					border-left: solid 0.6em transparent;
 					border-right: solid 0.6em transparent;
 				}
